@@ -1,0 +1,19 @@
+import { Persona } from "./clase";
+
+export class Empleado extends Persona {
+    public puesto: string;
+
+    constructor(nombre: string, edad: number, esDesarrollador: boolean, puesto: string) {
+        super(nombre, edad, esDesarrollador);
+        this.puesto = puesto;
+    }   
+
+    public saludar(): string {
+        return `${super.saludar()} trabajo como  ${this.puesto}.`;
+    }
+    
+    public obtenerInfo(): string {
+        return `tengo ${this.obtenerEdad()} años y mi puesto es ${this.puesto}.`;
+    }
+
+}

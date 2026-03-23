@@ -1,0 +1,11 @@
+var nombre = "Admin";
+var edad = 30;
+var esDesarrollador = true;
+var mes;
+var desarrolladorActivo = true;
+var varibleNull = null;
+console.log("Mes Inicial: " + mes);
+mes = "Enero";
+console.log("Mes Actualizado: " + mes);
+console.log("Hello, World!");
+console.log("Hello, " + nombre + "!");

@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var calculator_1 = require("./calculator");
+var resultado = (0, calculator_1.suma)(5, 3);
+console.log("El resultado de la suma es: ".concat(resultado));
+var resultadoResta = (0, calculator_1.resta)(5, 3);
+console.log("El resultado de la resta es: ".concat(resultadoResta));
+var resultadoMultiplicacion = (0, calculator_1.multiplicacion)(5, 3);
+console.log("El resultado de la multiplicaci\u00F3n es: ".concat(resultadoMultiplicacion));
+var resultadoDivision = (0, calculator_1.division)(5, 3);
+console.log("El resultado de la divisi\u00F3n es: ".concat(resultadoDivision));
